@@ -2,7 +2,8 @@
 
 Single-page personal CV and portfolio website for the Hypermedia project hand-in. It is made individually by Pol Quel Expósito with semantic HTML, responsive CSS and one small JavaScript enhancement for the current year. No framework, template library or UI kit is used: this keeps the project small, readable and appropriate for a static portfolio.
 
-**Live site:** Pending GitHub Pages deployment.  
+**Live site:** https://polquel.github.io/personal-cv-website/
+
 **Figma design:** https://www.figma.com/design/RnMWYrf0y7hrBIVXF6OR9l?node-id=3-2
 
 ## Project analysis — User profile
@@ -17,7 +18,7 @@ The website is intentionally a single page because a recruiter should not have t
 
 The second section is the portfolio core. It contains only AskQuel, not a grid of thin or unrelated university exercises. The case study first names the project and its area, then explains the user problem: local businesses need to know how they appear when people ask AI systems for recommendations. A small visual diagram introduces the “three names in an answer” idea before the text gives the product flow and the technical context. Tags make the main technologies scannable, while the external link lets interested users verify the public product themselves.
 
-After the project, the About section presents Pol’s current academic position, previous education and languages. This content sits after the work deliberately: it adds context without delaying the portfolio evidence. The Experience section is a concise timeline of customer-service and delivery roles, showing responsibility and direct communication without overstating their technical relevance. Finally, a high-contrast contact section repeats one simple action—send an email—and the footer supplies the return-to-top link. This order follows the reading path of an evaluator: identity, proof of work, qualifications, wider experience, and a way to continue the conversation.
+After the project, the About section presents Pol’s current academic position, previous education and languages. This content sits after the work deliberately: it adds context without delaying the portfolio evidence. The Experience section is a concise timeline of customer-service and delivery roles, showing responsibility and direct communication without overstating their technical relevance. A dedicated Skills section then separates technical knowledge from professional strengths, making both groups easy to scan without mixing them into the employment timeline. Finally, a high-contrast contact section repeats one simple action—send an email—and the footer supplies the return-to-top link. This order follows the reading path of an evaluator: identity, proof of work, qualifications, wider experience, capabilities, and a way to continue the conversation.
 
 ## Project analysis — Visual design
 
@@ -25,7 +26,7 @@ The visual direction is a dark, editorial portfolio inspired by the atmosphere a
 
 The landing screen uses large, tightly tracked typography and an abstract dotted field. The field gives the hero texture and a sense of movement while remaining purely decorative; it never carries information. Its slow animation is disabled when the visitor asks for reduced motion. The rounded translucent navigation bar, monospace labels and minimal grid echo a technical tool rather than a conventional CV template. Manrope is used for headings and reading text because it remains clear at both display and body sizes; DM Mono marks navigation, dates, labels and product metadata so the hierarchy is apparent even when scanning.
 
-Every content band changes surface or uses a thin divider, creating a deliberate rhythm down the page. The AskQuel feature combines a simple answer-slot diagram with explanatory prose, making the concept understandable before the technical details. The light About band creates a strong pause after the dark project area, while the green contact band clearly signals the final action. Responsive rules collapse the desktop grids to one column, keep touch targets readable and prevent horizontal overflow. Semantic landmarks, visible focus states, a skip link and descriptive link text support keyboard and assistive-technology users.
+Every content band changes surface or uses a thin divider, creating a deliberate rhythm down the page. The AskQuel feature combines a simple answer-slot diagram with explanatory prose, making the concept understandable before the technical details. The light About band creates a strong pause after the dark project area. The Skills section returns to the dark surface and uses two divided rows, one technical and one professional, matching the restrained structure of the experience timeline. The green contact band clearly signals the final action. Responsive rules collapse the desktop grids to one column, keep touch targets readable and prevent horizontal overflow. Semantic landmarks, visible focus states, a skip link and descriptive link text support keyboard and assistive-technology users.
 
 ## Run locally
 

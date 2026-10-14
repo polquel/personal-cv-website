@@ -3,7 +3,7 @@
 Single-page personal CV and portfolio website for the Hypermedia project hand-in. It is made individually by Pol Quel Expósito with semantic HTML, responsive CSS and one small JavaScript enhancement for the current year. No framework, template library or UI kit is used: this keeps the project small, readable and appropriate for a static portfolio.
 
 **Live site:** Pending GitHub Pages deployment.  
-**Figma design:** https://www.figma.com/design/8lu18YaD42yWFDxToFUitj?node-id=13-2
+**Figma design:** https://www.figma.com/design/RnMWYrf0y7hrBIVXF6OR9l?node-id=3-2
 
 ## Project analysis — User profile
 

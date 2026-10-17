@@ -3,96 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pol Quel Expósito — Computer Engineering student and web builder." />
-    <title>Pol Quel — CV & Portfolio</title>
+    <meta name="description" content="Curriculum vitae of Pol Quel Expósito, Computer Engineering student and web developer." />
+    <title>Pol Quel Expósito — Curriculum Vitae</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="stylesheet" href="style.css?v=3" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
-        <a class="monogram" href="#top" aria-label="Pol Quel, home">PQ</a>
-        <a href="#about">About</a>
+        <a class="brand" href="#top" aria-label="Pol Quel, home"><span>PQ</span><b>POL QUEL EXPÓSITO</b></a>
+        <div class="nav-links">
+          <a href="#profile">Profile</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Project</a>
+          <a href="#contact">Contact</a>
+        </div>
       </nav>
     </header>
 
     <main id="main">
       <section id="top" class="hero" aria-labelledby="hero-title">
         <div class="noise" aria-hidden="true"></div>
-        <p class="eyebrow">POL QUEL EXPÓSITO · TORELLÓ, CATALUNYA</p>
-        <h1 id="hero-title">Computer Engineering student.<br />Building for the web.</h1>
-        <a class="hero-link" href="#projects">Explore selected work</a>
-        <p class="scroll-note" aria-hidden="true">SCROLL TO DISCOVER</p>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">CURRICULUM VITAE · 2026</p>
+            <h1 id="hero-title">Pol Quel<br />Expósito.</h1>
+            <p class="role">Computer Engineering student<br />focused on web products.</p>
+            <div class="hero-actions">
+              <a class="button" href="mailto:polquel2000@gmail.com">Email me</a>
+              <a class="text-link" href="#projects">View selected work</a>
+            </div>
+          </div>
+
+          <aside class="cv-card" aria-label="Curriculum summary">
+            <p class="terminal-line"><span>pol@portfolio:~$</span> whoami</p>
+            <dl class="quick-facts">
+              <div><dt>Location</dt><dd>Torelló, Catalunya</dd></div>
+              <div><dt>Education</dt><dd>Computer Engineering · UdG</dd></div>
+              <div><dt>Focus</dt><dd>Web development · Software</dd></div>
+              <div><dt>Languages</dt><dd>Catalan · Spanish · English</dd></div>
+            </dl>
+            <p class="status"><i></i> Building and learning</p>
+          </aside>
+        </div>
+        <p class="scroll-note" aria-hidden="true">01 — PROFILE BELOW</p>
+      </section>
+
+      <section id="profile" class="section profile" aria-labelledby="profile-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / PROFILE</p>
+          <h2 id="profile-title">About me.</h2>
+        </div>
+        <div class="profile-grid">
+          <p class="lead">I am a Computer Engineering student who likes understanding how things work and turning that knowledge into clear, useful digital products.</p>
+          <div class="profile-copy">
+            <p>I am especially interested in the point where programming, product thinking and visual clarity meet. I learn by building: breaking a problem into smaller parts, testing ideas and refining the result until it feels simple to use.</p>
+            <p>Customer-facing work has also taught me to listen, communicate directly and take responsibility for the small details that shape an experience.</p>
+          </div>
+        </div>
+        <div class="education-grid" aria-label="Education">
+          <article><p class="item-number">EDU / 01</p><h3>BSc Computer Engineering</h3><span>University of Girona · Ongoing</span></article>
+          <article><p class="item-number">EDU / 02</p><h3>Baccalaureate</h3><span>La Salle Manlleu</span></article>
+          <article><p class="item-number">EDU / 03</p><h3>Secondary education</h3><span>Escola Sagrats Cors · Torelló</span></article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience" aria-labelledby="experience-title">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">Work history.</h2></div>
+          <p>Early roles centred on service, reliability and direct contact with people.</p>
+        </div>
+        <div class="timeline">
+          <article><p>2018—2023</p><div><h3>Customer service</h3><span>Fil i Agulla · Torelló</span></div><b>05 YEARS</b></article>
+          <article><p>SUMMER 2023</p><div><h3>Delivery driver</h3><span>La Diavola · Torelló</span></div><b>SEASONAL</b></article>
+        </div>
       </section>
 
       <section id="projects" class="section projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="eyebrow">01 / SELECTED PROJECT</p>
-          <h2 id="projects-title">AskQuel</h2>
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2 id="projects-title">AskQuel.</h2></div>
+          <p>One real product, explained with enough context to understand the problem and my approach.</p>
         </div>
         <article class="project-card">
           <div class="project-visual" aria-hidden="true">
-            <p>AI ANSWERS</p>
+            <div class="visual-header"><span>ASKQUEL / AI VISIBILITY</span><span>2026</span></div>
+            <p class="query">“Which business should I choose?”</p>
             <div class="answer-row"><span>01</span><i></i><b>Competitor</b></div>
             <div class="answer-row"><span>02</span><i></i><b>Competitor</b></div>
             <div class="answer-row own"><span>03</span><i></i><b>Your business?</b></div>
             <small>CHATGPT · GEMINI · PERPLEXITY</small>
           </div>
           <div class="project-copy">
-            <p class="project-kicker">AI visibility · Web product · 2026</p>
-            <h3>Helping businesses be recommended in AI answers.</h3>
-            <p>AskQuel is a multilingual web product that examines how a business appears when customers ask ChatGPT, Gemini and Perplexity for a recommendation. It keeps each engine separate, records the answer and its sources, and turns that reading into a clear diagnostic.</p>
-            <p>The project follows a measure, improve and check cycle: understand whether a business is named, identify who takes its place when it is not, improve the signals behind the answer, then review the result using the same criteria. The public site is built with Astro, TypeScript and Preact, with a reusable design system and build-time checks.</p>
-            <div class="tags" aria-label="Project technologies">
-              <span>Astro</span><span>TypeScript</span><span>Preact</span><span>Design system</span>
-            </div>
-            <a class="button" href="https://askquel.com" target="_blank" rel="noreferrer">Visit askquel.com</a>
+            <p class="project-kicker">AI visibility · Multilingual web product</p>
+            <h3>Helping businesses understand how AI recommends them.</h3>
+            <p>AskQuel examines how a business appears when customers ask ChatGPT, Gemini and Perplexity for a recommendation. It keeps each engine separate, records the answer and its sources, and turns that reading into a clear diagnostic.</p>
+            <p>The product follows a measure, improve and check cycle. Its public site is built with Astro, TypeScript and Preact, supported by a reusable design system and build-time checks.</p>
+            <div class="tags" aria-label="Project technologies"><span>Astro</span><span>TypeScript</span><span>Preact</span><span>Design system</span></div>
+            <a class="button" href="https://askquel.com" target="_blank" rel="noreferrer">Open askquel.com</a>
           </div>
         </article>
       </section>
 
-      <section id="about" class="section about" aria-labelledby="about-title">
-        <div class="section-heading"><p class="eyebrow">02 / ABOUT</p><h2 id="about-title">A practical, curious builder.</h2></div>
-        <div class="about-grid">
-          <p class="lead">I am Pol Quel Expósito, a Computer Engineering student at the University of Girona. I enjoy turning an idea into something clear, useful and well made for the web.</p>
-          <dl>
-            <div><dt>Education</dt><dd>BSc Computer Engineering<br />University of Girona · ongoing</dd></div>
-            <div><dt>Previous studies</dt><dd>Secondary education · Escola Sagrats Cors de Torelló<br />Baccalaureate · La Salle Manlleu</dd></div>
-            <div><dt>Languages</dt><dd>Catalan · Spanish · English (Cambridge B1 PET)</dd></div>
-          </dl>
-        </div>
-      </section>
-
-      <section class="section experience" aria-labelledby="experience-title">
-        <div class="section-heading"><p class="eyebrow">03 / EXPERIENCE</p><h2 id="experience-title">People-facing work.</h2></div>
-        <div class="timeline">
-          <article><p>2018—2023</p><h3>Customer service</h3><span>Fil i Agulla · Torelló</span></article>
-          <article><p>SUMMER 2023</p><h3>Delivery driver</h3><span>La Diavola · Torelló</span></article>
-        </div>
-      </section>
-
       <section id="skills" class="section skills" aria-labelledby="skills-title">
-        <div class="section-heading"><p class="eyebrow">04 / SKILLS</p><h2 id="skills-title">Skills in practice.</h2></div>
-        <div class="skills-list">
-          <article>
-            <p>Technical</p>
-            <h3>C++ · Programming · Data structures · Algorithms · MIPS · HTML &amp; CSS</h3>
-          </article>
-          <article>
-            <p>Professional</p>
-            <h3>Teamwork · Customer service · Communication · Time management</h3>
-          </article>
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">04 / SKILLS</p><h2 id="skills-title">Toolkit.</h2></div>
+          <p>A growing technical foundation, supported by practical people skills.</p>
+        </div>
+        <div class="skills-grid">
+          <article><p>01 / CODE</p><h3>C++<br />HTML &amp; CSS<br />MIPS</h3></article>
+          <article><p>02 / CS</p><h3>Programming<br />Data structures<br />Algorithms</h3></article>
+          <article><p>03 / WORK</p><h3>Teamwork<br />Communication<br />Time management</h3></article>
+          <article><p>04 / LANGUAGES</p><h3>Catalan<br />Spanish<br />English · B1 PET</h3></article>
         </div>
       </section>
 
-      <section class="contact" aria-labelledby="contact-title">
-        <p class="eyebrow">05 / CONTACT</p>
-        <h2 id="contact-title">Let’s build something useful.</h2>
-        <a href="mailto:polquel2000@gmail.com">polquel2000@gmail.com</a>
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div><p class="eyebrow">05 / CONTACT</p><h2 id="contact-title">Let’s talk.</h2></div>
+        <div class="contact-details">
+          <p>If you want to discuss a project, an internship or simply exchange ideas, write to me.</p>
+          <a href="mailto:polquel2000@gmail.com">polquel2000@gmail.com</a>
+          <span>Torelló · Catalunya</span>
+        </div>
       </section>
     </main>
     <footer><span>© <span id="year"></span> POL QUEL EXPÓSITO</span><a href="#top">BACK TO TOP</a></footer>

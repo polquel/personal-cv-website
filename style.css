@@ -89,7 +89,7 @@ dd { margin: 0; font-size: 0.86rem; }
 .tags span { padding: 0.35rem 0.6rem; border: 1px solid #596058; color: var(--muted); font: 400 0.62rem var(--mono); }
 
 .skills { background: var(--ink); }
-.skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .skills-grid article { min-height: 250px; padding: 1.4rem; }
 .skills-grid article + article { border-left: 1px solid var(--line); }
 .skills-grid p { margin: 0; color: var(--acid); font: 400 0.62rem var(--mono); letter-spacing: 0.06em; }
@@ -116,9 +116,6 @@ footer a { text-decoration: none; }
   .split-heading > p { margin-left: 0; }
   .education-grid { grid-template-columns: 1fr; }
   .education-grid article + article { padding-left: 0; border-left: 0; border-top: 1px solid #aab0a8; }
-  .skills-grid { grid-template-columns: 1fr 1fr; }
-  .skills-grid article:nth-child(3) { border-left: 0; border-top: 1px solid var(--line); }
-  .skills-grid article:nth-child(4) { border-top: 1px solid var(--line); }
   .contact { width: 100%; gap: 2.5rem; }
   footer { width: 90%; }
 }
